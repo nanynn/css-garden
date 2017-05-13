@@ -1,1 +1,17 @@
 /* Agrega aquí tus estilos*/
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+#css-zen-garden{
+	margin: 0;
+	padding: 0;
+}
+.intro{
+	background-image:url(../img/jardin.jpg);
+}
+
+.intro h1{
+	margin: 0;
+	color: #fff ;
+}
