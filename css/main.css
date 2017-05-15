@@ -123,7 +123,7 @@ img {
 
 .benefits{
 	text-align:left;
-	float: left;
+
 	display: table-cell;
 	height:400px;
 	width: 500px;
@@ -133,10 +133,10 @@ img {
 }
 
 .requirements{
+	border:1px solid #ccc
 	text-align:left;
-	float: right;
 	display: table-cell;
-	height:200px;
+	height:1000px;
 	width: 500px;
 	padding-right:25px;	
 	padding-right: 25px;
@@ -159,6 +159,99 @@ img {
 	background-color:#DCDCDC;
 }
 
-footer {
+footer{
 	background-color: #BFBFBF;
+	position: relative;
+	width: 100%;
+	height: 30%;
+	margin-top: -200px;
+	padding-top: 30px;
+	-webkit-box-sizing:border-box;
+	box-sizing: border-box;
+	border-top: 2px solid #fff;
+	padding: 10%;
+}
+
+footer ul li {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	background-color: #C2C2C2;
+	border-radius: 15%;
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	color: #fff;
+	font-style:bold;
+	padding-left: 15%;
+	
+}
+
+footer a:hover{
+	font-style: italic;
+	background-color: #333333;
+}
+#zen-supporting .main-suporting footer a{
+	display: table-cell;
+	padding: 20px;
+}
+.sidebar{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 5px;
+	padding-bottom: 5px;
+	float: left;
+	border:3px outset;
+	
+}
+/*.desing-selection nav {
+	width: 90%;
+	margin-top: 5px;
+	margin-left: 5%;
+	padding-bottom: 50px;
+	background: #BFBFBF;
+	border:1px dashed;
+	height: auto;
+	float: left
+}
+
+.desing-selection a{
+	padding: 3%;
+}*/
+
+.sidebar  ul{
+   list-style-type: none;
+   text-align: center;
+   width: 100%;
+}
+.sidebar  li{
+   display: inline;
+   text-align: center;
+   margin: 0 30px 0 0;
+   padding: 10px 0 0 0;
+}
+.sidebar   a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+.sidebar a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.design-selection{
+	float: left;
+}
+
+.extra1{
+	float: left;
+}
+
+.extra2{
+	float: right;
 }
